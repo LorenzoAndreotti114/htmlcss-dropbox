@@ -179,3 +179,14 @@ header {
 FOOTER {
     background-color: black;
 }
+
+.Footer-Card {
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(100%/5);
+    height: 80%;
+    margin: 3%;
+
+    /* DEBUG */
+    height: 300px;
+}
