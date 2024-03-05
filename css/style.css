@@ -60,9 +60,18 @@
     width: 70%;
 }
 
+.Width60 {
+    width: 60%;
+}
+
 .Width50 {
     width: 50%;
 }
+
+.Width40 {
+    width: 40%;
+}
+
 
 .Left-Align {
     text-align: left;
@@ -120,6 +129,10 @@ svg {
 
 i {
     margin-right: 2%;
+}
+
+hr {
+    border: 1px solid black;
 }
 
 
@@ -298,6 +311,41 @@ header {
     height: 50%;
     width: 100%;
 }
+
+
+/* QUESTIONS */
+
+.Questions {
+    position: relative;
+}
+
+.Questions .Show {
+    position: relative;
+    font-size: 1vw;
+    padding: 3% 0;
+}
+
+.Questions .Hide:hover {
+    position: relative;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+}
+
+.Questions i {
+    position: absolute;
+    right: 0;
+}
+
+.Hide {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.1);
+    border: 1px slid black;
+    
+}
+
 
 
 /* FOOOOOTER */
