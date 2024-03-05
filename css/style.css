@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans',sans-serif ;
 }
 
 .Container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(146, 255, 151);
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
@@ -25,7 +26,7 @@
     justify-content: center;
 
         /* DEBUG */
-    background-color: blueviolet;
+    background-color: rgb(255, 157, 157);
     border: 3px solid black;
 }
 
@@ -34,7 +35,6 @@
     margin: 3%;
     border: 1px solid black;
     width: 30%;
-    height: 600px;
 }
 
 .H-Card {
@@ -49,45 +49,99 @@
     width: 100%;
 }
 
+.Width80 {
+    width: 80%;
+}
+
 .Width70 {
     width: 70%;
+}
+
+.Left-Align {
+    text-align: left;
 }
 
 .Margin1 {
     margin: 1%;
 }
 
+.Margin5 {
+    margin: 5%;
+}
+
 .padding2-0 {
     padding: 2% 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.Blue-Square {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+.No-Link {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 6vw;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3vw;
+    padding: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+i {
+    margin-right: 2%;
+}
+
+
 /* HEADER */
 
 header {
+    display: flex;
     position: sticky;
     overflow: hidden;
     top: 0;
+    height: 40px
 }
 
-.Header-Container {
-    display: flex;
-    justify-content: space-between;
+header > div {
+    display: ;
     align-items: center;
-    width: 100vw;
-
-     /* DEBUG */
-     background-color: rgb(255, 0, 0);
 }
 
 .Header-Col {
-    display: inline-block;
-    border: 1px solid black;
-    border-style: dashed;
-    width: 30%;
+    display: flex;
+    align-items: center;
 
      /* DEBUG */
-     height: 60px;
-     background-color: aqua;
+}
+
+.Header-Col img {
+    width: 30%;
+    height: 30%;
+    padding: 0 10px;
+}
+
+.Header-Col ul {
+    display: flex;
+}
+
+.Header-Col li {
+    padding: 0 10px;
+    font-size: 90%;
 }
 
 
@@ -98,7 +152,6 @@ header {
 
 .Hero-Container {
     display: flex;
-    background-color: grey;
     width: 100%;
     justify-content: center;
 
@@ -106,17 +159,72 @@ header {
 }
 
 .Hero-Card {
-    width: 80%;
-    margin: 2vw;
-    background-color: brown;
+    display: flex;
 
      /* DEBUG */
-     height: 500px;
+}
+
+.Hero-Card h1 {
+    text-align: left;
+}
+
+.Left-Hero {
+    width: 40%;
+}
+
+.Left-Hero div {
+    font-size: 130%;
+    margin-bottom: 20px;
+}
+
+.Left-Hero .Blue-Square {
+    margin-bottom: 5%;
+}
+
+.Right-Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.Right-Hero img {
+    top: 0;
+    left: 0;
+}
+
+.Hero-Text {
+    padding: 5% 0;
+}
+
+.Arrow-Down {
+
+}
+
+.Arrow-Down i {
+    font-size: 6vh;
+    padding-top: 25% ;
 }
 
 
 /* BUSINESS PLAN */ 
 
+.Radio-Business {
+    display: flex;
+    padding-right: 10%;
+    font-size: 2vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.Top-Card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1.5vw;
+}
 
 /* DROPBOX PARTNER */
 
