@@ -42,7 +42,6 @@
     margin: 1% 3%;
     border: 1px solid black;
     width: 100%;
-    height: 200px;
 }
 
 .Width100 {
@@ -55,6 +54,10 @@
 
 .Width70 {
     width: 70%;
+}
+
+.Width50 {
+    width: 50%;
 }
 
 .Left-Align {
@@ -111,16 +114,13 @@ i {
 
 header {
     display: flex;
+    z-index: 10;
     position: sticky;
     overflow: hidden;
     top: 0;
     height: 40px
 }
 
-header > div {
-    display: ;
-    align-items: center;
-}
 
 .Header-Col {
     display: flex;
@@ -226,16 +226,28 @@ header > div {
     font-size: 1.5vw;
 }
 
+.Inner-H-Card {
+    background-color: brown;
+    margin: 2%;
+}
+
 /* DROPBOX PARTNER */
 
 .Partner-Card {
+    display: flex;
     background-color: brown;
     width: 100%;
     margin: 5% 0;
 
     /* DEBUG */
-    height: 400px;
+
 }
+
+.DB-Card {
+
+    border: 1px solid black;
+}
+
 
 
 /*BUSINESS CARD PATTERN*/
@@ -246,7 +258,6 @@ header > div {
     width: calc(100%/3);
 
     /* DEBUG */
-    height: 350px;
     border: 1px solid black;
 }
 
